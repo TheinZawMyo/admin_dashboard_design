@@ -1,0 +1,35 @@
+.login_container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: auto;
+	transform: translate(-50%, -50%);
+}
+
+.title {
+	text-align: center;
+}
+
+.login_card {
+	min-width: 400px;
+	padding: 20px;
+	box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.login_card .form_field {
+	margin: 15px 5px;
+}
+
+.login_card .form_control,
+.login_card .login_btn {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid var(--primary-color);
+	font-size: 1rem;
+}
+
+.login_card .login_btn {
+	background-color: var(--primary-color);
+	color: var(--white-color);
+}

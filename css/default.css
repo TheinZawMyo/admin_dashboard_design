@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #8E44AD;
+    --secondary-color: #BB8FCE;
+    --light-gray-color: #F2F4F4;
+    --white-color: #ffffff;
+    --dark-color: #273746;
+    --red-color: #E74C3C;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
