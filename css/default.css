@@ -16,6 +16,7 @@
 
 body {
     font-family: 'Varela Round', sans-serif;
+    background-color: var(--light-gray-color);
 }
 
 
@@ -26,5 +27,24 @@ ul {
 a {
     text-decoration: none;
 }
+
+.btn {
+    padding: 7px 15px;
+    border: 1px solid var(--primary-color);
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.primary_btn, .secondary_btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.primary_btn:hover, .secondary_btn {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
 
 

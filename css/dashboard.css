@@ -4,10 +4,10 @@
 }
 
 .left_menu_container {
-	position: absolute;
+	position: fixed;
 	left: -100%;
 	top: 0;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: var(--white-color);
 	width: 350px;
 	box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
@@ -53,15 +53,18 @@ i {
 	padding: 10px;
 	margin: 10px;
 	border-radius: 5px;
+	color: var(--white-color);
+	background-color: var(--primary-color);
 	border: 1px solid var(--primary-color);
 }
 
 .menu_list .menu_link:hover{
-	color: var(--white-color);
+	color: var(--primary-color);
 }
 
 .menu_list .menu_item:hover {
-	background-color: var(--primary-color);
+	background-color: var(--white-color);
+	color: var(--primary-color);
 }
 
 .right_content_container {
@@ -83,10 +86,10 @@ i {
 
 .container {
 	margin: 80px auto;
+	max-width: 1400px;
 }
 
 .list_container {
-	max-width: 90%;
 	display: grid;
 	margin: 0 auto;
 	grid-template-columns: auto auto auto;
@@ -105,7 +108,7 @@ i {
 .card {
 	box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1) ;
 	margin: 20px;
-
+	background-color: var(--white-color);
 }
 
 .card img {
@@ -131,7 +134,23 @@ i {
 	margin: 5px;
 }
 
+.btn_group .bx-trash:hover {
+	background-color: var(--red-color);
+	color: var(--white-color);
+}
+
+.btn_group .bx-pencil:hover {
+	background-color: var(--primary-color);
+	color: var(--white-color);
+}
+
 .btn_group .bx-trash {
 	color: var(--red-color);
 	border: 1px solid var(--red-color);
+}
+
+.add_btn {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 20px;
 }
