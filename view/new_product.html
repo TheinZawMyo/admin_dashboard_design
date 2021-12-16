@@ -50,131 +50,183 @@
 					<div class="noti"><i class="bx bxs-bell-ring"></i></div>
 				</div>
 				<div class="container">
-                    <div class="card add_card">
-                        <h2 class="title">New Item</h2>
+					<div class="card add_card">
+						<h2 class="title">New Item</h2>
 						<form action="">
-                            <div class="form_row">
-                                <!-- first col -->
-                                <div class="form_col">
-                                    <div class="form_field">
-                                        <div class="label">
-                                            <label for="name">Item Name</label>
-                                        </div>
-                                        <div class="form_input">
-                                            <input
-                                                type="text"
-                                                name="name"
-                                                id="name"
-                                                class="form_control"
-                                                placeholder="Enter your item name"
-                                            />
-                                        </div>
-                                    </div>
+							<div class="form_row">
+								<!-- first col -->
+								<div class="form_col">
+									<div class="form_field">
+										<div class="label">
+											<label for="name">Item Name</label>
+										</div>
+										<div class="form_input">
+											<input
+												type="text"
+												name="name"
+												id="name"
+												class="form_control"
+												placeholder="Enter your item name"
+											/>
+										</div>
+									</div>
 
-                                    <div class="form_field">
-                                        <div class="label">
-                                            <label for="brands">Brands Name</label>
-                                        </div>
-                                        <div class="form_input">
-                                            <select name="" id="" class="form_option">
-                                                <option value="">Apple</option>
-                                                <option value="">Samsung</option>
-                                                <option value="">Xiaomi</option>
-                                                <option value="">Huawei</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form_field">
-                                        <div class="label">
-                                            <label for="brands">Brands Name</label>
-                                        </div>
-                                        <div class="form_input">
-                                            <input type="file" name="product_img" id="product_img" accept="image/*" >
-                                            <span class="btn primary_btn" onclick="document.getElementById('product_img').click()">Upload Image</span>
-                                        </div>
-                                    </div>
-                                    <div class="form_field">
-                                        <div class="form_img" id="preview_container">
-                                            <img src="" alt="Product Image" id="product_img_preview">
-                                        </div>
-                                    </div>
-                                </div>
+									<div class="form_field">
+										<div class="label">
+											<label for="brands"
+												>Brands Name</label
+											>
+										</div>
+										<div class="form_input">
+											<select
+												name=""
+												id=""
+												class="form_option"
+											>
+												<option value="">Apple</option>
+												<option value="">
+													Samsung
+												</option>
+												<option value="">Xiaomi</option>
+												<option value="">Huawei</option>
+											</select>
+										</div>
+									</div>
+									<div class="form_field">
+										<div class="label">
+											<label for="brands"
+												>Brands Name</label
+											>
+										</div>
+										<div class="form_input">
+											<input
+												type="file"
+												name="product_img"
+												id="product_img"
+												accept="image/*"
+											/>
+											<span
+												class="btn primary_btn"
+												onclick="document.getElementById('product_img').click()"
+												>Upload Image</span
+											>
+										</div>
+									</div>
+									<div class="form_field">
+										<div
+											class="form_img"
+											id="preview_container"
+										>
+											<img
+												src=""
+												alt="Product Image"
+												id="product_img_preview"
+											/>
+										</div>
+									</div>
+								</div>
 
-                                <!-- second col -->
-                                <div class="form_col">
-                                    <div class="form_field">
-                                        <div class="label">
-                                            <label for="price">Price</label>
-                                        </div>
-                                        <div class="form_input">
-                                            <input
-                                                type="number"
-                                                name="price"
-                                                id="price"
-                                                class="form_control"
-                                                placeholder="Enter your item price"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="form_field">
-                                        <div class="label">
-                                            <label for="qty">Available Quantity</label>
-                                        </div>
-                                        <div class="form_input">
-                                            <input
-                                                type="number"
-                                                name="qty"
-                                                id="qty"
-                                                class="form_control"
-                                                placeholder="Enter your available qty"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="form_field">
-                                        <div class="label">
-                                            <label for="name">Instock/Preorder</label>
-                                        </div>
-                                        <div class="form_input">
-                                            <input
-                                                type="radio"
-                                                name="stock"
-                                                id="stock"
-                                                class="form_radio"
-                                                value="instock"
-                                            /> InStock &nbsp;
-                                            <input
-                                                type="radio"
-                                                name="stock"
-                                                id="stock"
-                                                class="form_radio"
-                                                value="preorder"
-                                            /> PreOrder
-                                        </div>
-                                    </div>
-                                    <div class="form_field">
-                                        <div class="label">
-                                            <label for="spec">Item Specifications</label>
-                                        </div>
-                                        <div class="form_input">
-                                            <textarea name="specs" class="form_control" id="" cols="30" rows="10"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form_btn">
-                                <button type="button" class="btn primary_btn">
-                                    Save
-                                </button>
-                                <button type="button" class="btn secondary_btn">
-                                    Cancel
-                                </button>
-                            </div>
-
+								<!-- second col -->
+								<div class="form_col">
+									<div class="form_field">
+										<div class="label">
+											<label for="price">Price</label>
+										</div>
+										<div class="form_input">
+											<input
+												type="number"
+												name="price"
+												id="price"
+												class="form_control"
+												placeholder="Enter your item price"
+											/>
+										</div>
+									</div>
+									<div class="form_field">
+										<div class="label">
+											<label for="qty"
+												>Available Quantity</label
+											>
+										</div>
+										<div class="form_input">
+											<input
+												type="number"
+												name="qty"
+												id="qty"
+												class="form_control"
+												placeholder="Enter your available qty"
+											/>
+										</div>
+									</div>
+									<div class="form_field">
+										<div class="label">
+											<label for="name"
+												>Instock/Preorder</label
+											>
+										</div>
+										<div class="form_input">
+											<input
+												type="radio"
+												name="stock"
+												id="stock"
+												class="form_radio"
+												value="instock"
+											/>
+											InStock &nbsp;
+											<input
+												type="radio"
+												name="stock"
+												id="stock"
+												class="form_radio"
+												value="preorder"
+											/>
+											PreOrder
+										</div>
+									</div>
+									<div class="form_field">
+										<div class="label">
+											<label for="spec"
+												>Item Specifications</label
+											>
+										</div>
+										<div class="form_input">
+											<textarea
+												name="specs"
+												class="form_control"
+												id=""
+												cols="30"
+												rows="10"
+											></textarea>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_btn">
+								<button type="button" class="btn primary_btn">
+									Save
+								</button>
+								<button type="button" class="btn secondary_btn">
+									Cancel
+								</button>
+							</div>
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</body>
-	<script src="../index.js"></script>
+	<script>
+		// privew image for upload
+		const img_input = document.getElementById("product_img");
+		const img_preview = document.getElementById("product_img_preview");
+		const preview_container = document.getElementById("preview_container");
+		img_input.addEventListener("change", (e) => {
+			console.log(e.target.files);
+			if (e.target.files.length > 0) {
+				let src = URL.createObjectURL(e.target.files[0]);
+				img_preview.src = src;
+				preview_container.style.display = "block";
+			}
+		});
+	</script>
 </html>
